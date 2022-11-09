@@ -1,4 +1,6 @@
 #!/bin/bash
+## Original authors: https://github.com/CircleCI-Public/browser-tools-orb
+
 if [[ $EUID == 0 ]]; then export SUDO=""; else export SUDO="sudo"; fi
 export ORB_PARAM_DRIVER_INSTALL_DIR="/usr/local/bin"
 
